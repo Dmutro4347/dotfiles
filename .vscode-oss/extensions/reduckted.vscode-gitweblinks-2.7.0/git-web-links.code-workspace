@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "name": ".github",
+            "path": "..\\.github"
+        },
+        {
+            "name": "shared",
+            "path": "..\\shared"
+        },
+        {
+            "name": "vscode",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "typescript.tsdk": "node_modules\\typescript\\lib"
+    }
+}

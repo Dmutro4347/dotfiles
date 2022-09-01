@@ -1,0 +1,85 @@
+<svg id="svg22" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <defs id="defs12">
+        <style id="style4" type="text/css"/>
+        <style id="style6" type="text/css"/>
+        <style id="style8" type="text/css"/>
+        <style id="style903" type="text/css"/>
+        <style id="style905" type="text/css"/>
+        <style id="style907" type="text/css"/>
+        <style id="style909" type="text/css"/>
+        <filter id="filter1057" x="-.026999999" y="-.026999999" width="1.054" height="1.054" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur911" stdDeviation="0.61875"/>
+        </filter>
+        <style id="style919" type="text/css"/>
+        <style id="style921" type="text/css"/>
+        <style id="style923" type="text/css"/>
+    </defs>
+    <rect id="rect927" x="4.4999995" y="4.4999995" width="55" height="55" ry="15" fill="#141414" filter="url(#filter1057)" opacity=".3" stroke-linecap="round" stroke-width="2.7444"/>
+    <g fill="#5e4aa6">
+        <g id="g60" transform="translate(-74.160584)">
+            <circle id="circle20" cx="-1248.7" cy="-1241.6" r="0"/>
+            <circle id="circle22" cx="-149.14999" cy="23.855" r="0" fill-rule="evenodd"/>
+            <circle id="circle24" cx="-1150.9" cy="-1256.6" r="0"/>
+            <circle id="circle26" cx="-51.327" cy="8.8744001" r="0" fill-rule="evenodd"/>
+            <g id="g58" transform="matrix(3.7796,0,0,3.7796,167.86,4.61)" stroke-width=".26458">
+                <g id="g36" transform="translate(-.0272 .0065001)">
+                    <circle id="circle28" cx="-330.35001" cy="-328.38" r="0"/>
+                    <circle id="circle30" cx="-312.10999" cy="-326.25" r="0"/>
+                    <circle id="circle32" cx="-306.01999" cy="-333.07001" r="0"/>
+                    <circle id="circle34" cx="-308.84" cy="-326.01001" r="0"/>
+                </g>
+                <g id="g46" transform="translate(-.0272 .0065001)">
+                    <circle id="circle38" cx="-330.35001" cy="-328.38" r="0"/>
+                    <circle id="circle40" cx="-312.10999" cy="-326.25" r="0"/>
+                    <circle id="circle42" cx="-306.01999" cy="-333.07001" r="0"/>
+                    <circle id="circle44" cx="-308.84" cy="-326.01001" r="0"/>
+                </g>
+                <g id="g56" transform="translate(-.02705 .0064503)">
+                    <circle id="circle48" cx="-330.35001" cy="-328.38" r="0"/>
+                    <circle id="circle50" cx="-312.10999" cy="-326.25" r="0"/>
+                    <circle id="circle52" cx="-306.01999" cy="-333.07001" r="0"/>
+                    <circle id="circle54" cx="-308.84" cy="-326.01001" r="0"/>
+                </g>
+            </g>
+        </g>
+        <circle id="circle935" cx="-1472.8641" cy="-1261.2" r="0"/>
+        <circle id="circle937" cx="-1478.49" cy="-1272.89" r="0"/>
+        <circle id="circle939" cx="-378.94" cy="-7.4350004" r="0" fill-rule="evenodd"/>
+        <circle id="circle941" cx="-1478.49" cy="-1272.89" r="0"/>
+        <circle id="circle943" cx="-378.94" cy="-7.4350004" r="0" fill-rule="evenodd"/>
+        <circle id="circle945" cx="-1380.6901" cy="-1287.89" r="0"/>
+        <circle id="circle947" cx="-281.117" cy="-22.4156" r="0" fill-rule="evenodd"/>
+        <g id="g977" transform="matrix(3.7796,0,0,3.7796,-61.929994,-26.68)" stroke-width=".26458">
+            <g id="g965" transform="translate(-.0272 .0065001)">
+                <circle id="circle949" cx="-330.35001" cy="-328.38" r="0"/>
+                <circle id="circle951" cx="-312.10999" cy="-326.25" r="0"/>
+                <circle id="circle953" cx="-306.01999" cy="-333.07001" r="0"/>
+                <circle id="circle955" cx="-308.84" cy="-326.01001" r="0"/>
+                <circle id="circle957" cx="-330.35001" cy="-328.38" r="0"/>
+                <circle id="circle959" cx="-312.10999" cy="-326.25" r="0"/>
+                <circle id="circle961" cx="-306.01999" cy="-333.07001" r="0"/>
+                <circle id="circle963" cx="-308.84" cy="-326.01001" r="0"/>
+            </g>
+            <g id="g975" transform="translate(-.02705 .0064503)">
+                <circle id="circle967" cx="-330.35001" cy="-328.38" r="0"/>
+                <circle id="circle969" cx="-312.10999" cy="-326.25" r="0"/>
+                <circle id="circle971" cx="-306.01999" cy="-333.07001" r="0"/>
+                <circle id="circle973" cx="-308.84" cy="-326.01001" r="0"/>
+            </g>
+        </g>
+    </g>
+    <g id="g4773" transform="translate(-232.10547,-38.933594)">
+        <g stroke-width=".183333">
+            <path id="XMLID_28_" d="m236.60547 69.099609v14.333985c0 8.309991 6.69001 15 15 15h14.33398v-29.333985z" fill="#d15516"/>
+            <path id="XMLID_27_" d="m264.10547 69.099609v29.333985h12.5c8.30999 0 15-6.690009 15-15v-14.333985z" fill="#f7a92d"/>
+            <path id="XMLID_26_" d="m262.27148 43.433594v27.5h29.33399v-12.5c0-8.309992-6.69001-15-15-15z" fill="#14618e"/>
+            <path id="XMLID_1186_" d="m264.10156 70.933594-23.11328 23.115234c2.7114 2.712396 6.4612 4.384766 10.61719 4.384766h12.49609v-8.341797c0.83655 0.209734 1.63009 0.326172 2.29688 0.326172 3.16359-1.83e-4 5.72851-2.566505 5.72851-5.730469 0-3.16378-2.56492-5.728699-5.72851-5.728516-0.66696 0-1.46051 0.114669-2.29688 0.324219z" fill="#ef8124"/>
+        </g>
+        <path id="XMLID_24_" transform="matrix(.18333333 0 0 .18333333 236.60557 43.433821)" d="m81.817631-0.00123955c-45.327228 0-81.818183 36.490956-81.818183 81.818184v48.185366l150 19.99645v-150z" fill="#a5cad4"/>
+        <g stroke-width=".183333">
+            <path id="XMLID_23_" d="m264.10938 43.433594v8.341797c-0.83655-0.209733-1.63028-0.324403-2.29688-0.324219-3.1636 1.83e-4 -5.72852 2.564553-5.72852 5.728516 0 3.16378 2.56492 5.728515 5.72852 5.728515 0.66679 0 1.46051-0.114669 2.29688-0.324219v8.34961l23.11328-23.115235c-2.71125-2.711247-6.4622-4.384765-10.61719-4.384765z" fill="#0c4168"/>
+            <path id="XMLID_3_" d="m277.85938 62.914062c-3.16379 0-5.72852 2.562966-5.72852 5.726563 0 0.666966 0.11467 1.462279 0.32422 2.298828h-8.34961l23.11719 23.111328c2.71124-2.711247 4.38281-6.462191 4.38281-10.617187v-12.496094l-8.3418 2e-3c0.20973-0.836549 0.32441-1.632229 0.32422-2.298828-1.8e-4 -3.163597-2.56456-5.726562-5.72851-5.726563z" fill="#f9c561"/>
+            <path id="XMLID_2_" d="m240.99023 47.818359c-2.71124 2.711248-4.38476 6.460239-4.38476 10.615235v12.496094h8.3418c-0.20973 0.836549-0.3244 1.630275-0.32422 2.296874 1.9e-4 3.163597 2.56455 5.728516 5.72851 5.728516 3.16378 0 5.72852-2.564919 5.72852-5.728516 0-0.666965-0.11467-1.460325-0.32422-2.296874h8.34961z" fill="#5b9cad"/>
+        </g>
+    </g>
+</svg>

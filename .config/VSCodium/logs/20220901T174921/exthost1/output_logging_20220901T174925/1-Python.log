@@ -1,0 +1,11 @@
+Telemetry level is off
+Experiments are disabled, only manually opted experiments are active.
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+> conda info --json
+Python interpreter path: /bin/python
+> /bin/python ~/.vscode-oss/extensions/ms-python.python-2022.12.1/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2022.12.1/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode-oss/extensions/ms-python.python-2022.12.1/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2022.12.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2022.12.1/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2022.12.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode-oss/extensions/ms-python.python-2022.12.1/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2022.12.1/pythonFiles/interpreterInfo.py
+Starting Jedi language server for code.

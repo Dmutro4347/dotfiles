@@ -1,0 +1,61 @@
+<svg id="svg25" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <defs id="defs7">
+        <style id="style864" type="text/css"/>
+        <style id="style874" type="text/css"/>
+        <style id="style876" type="text/css"/>
+        <style id="style878" type="text/css"/>
+        <style id="style880" type="text/css"/>
+        <style id="style882" type="text/css"/>
+        <style id="style884" type="text/css"/>
+        <style id="style886" type="text/css"/>
+        <filter id="filter1057-3" x="-.026999999" y="-.026999999" width="1.054" height="1.054" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur866-6" stdDeviation="0.61875"/>
+        </filter>
+    </defs>
+    <g fill="#5e4aa6">
+        <g id="g937" transform="matrix(3.779602,0,0,3.779602,3.9134265,-70.54798)" stroke-width=".26458">
+            <circle id="circle929" cx="-330.35001" cy="-328.38" r="0"/>
+            <circle id="circle931" cx="-312.10999" cy="-326.25" r="0"/>
+            <circle id="circle933" cx="-306.01999" cy="-333.07001" r="0"/>
+            <circle id="circle935" cx="-308.84" cy="-326.01001" r="0"/>
+        </g>
+        <circle id="circle890" cx="-968.94611" cy="-1279.3" r="0"/>
+        <g stroke-width="1.00001">
+            <circle id="circle892" cx="-850.492" cy="-1318.599" r="0"/>
+            <circle id="circle894" cx="249.04576" cy="-53.108505" r="0" fill-rule="evenodd"/>
+            <circle id="circle896" cx="-771.98975" cy="-1390.1091" r="0"/>
+            <circle id="circle898" cx="327.54501" cy="-124.58187" r="0" fill-rule="evenodd"/>
+        </g>
+    </g>
+    <style id="style149" type="text/css">.st0{clip-path:url(#SVGID_1_);}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{clip-path:url(#SVGID_3_);}
+	.st3{clip-path:url(#SVGID_4_);fill:none;stroke:#002C5B;stroke-width:6;stroke-miterlimit:10;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#192E45;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#D0933A;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFCC86;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#FDD321;}
+	.st8{fill:#FFFFFF;}
+	.st9{fill:#1D2A3A;}
+	.st10{fill:#192E45;}</style>
+    <g fill="#e6e6e6"></g>
+    <style id="style69" type="text/css">.st0{fill:#9397CD;}
+	.st1{fill:#262A33;}
+	.st2{fill:#FFFFFF;}</style>
+    <rect id="rect902" x="4.4999995" y="4.4999995" width="55" height="55" ry="15" fill="#141414" filter="url(#filter1057-3)" opacity=".3" stroke-linecap="round" stroke-width="2.7444"/>
+    <g id="g1157">
+        <rect id="rect904" x="4.5" y="4.5" width="55" height="55" ry="15" fill="#9397cd" stroke-linecap="round" stroke-width="2.7444"/>
+        <g id="g87-3" transform="matrix(.04103836 0 0 .04103836 10.980151 10.984257)">
+            <g id="g3440" transform="translate(0,46.757571)" stroke-width="1.61243">
+                <path id="path83" class="st2" d="m512.03877 92.882609s-219.77416-7.255934-265.08343 236.54342v166.08026s1.93491 17.73672 51.92023 53.85515c49.98532 36.11842 179.30218 137.70149 213.32444 137.70149 33.86103 0 163.33913-101.58307 213.32445-137.70149 49.98531-36.11843 51.92023-53.85515 51.92023-53.85515v-166.08026c-45.63176-243.79936-265.40592-236.54342-265.40592-236.54342zm150.43969 327.16197h-300.87937v-90.4573c30.47492-121.09347 150.43968-122.7059 150.43968-122.7059s119.96477 1.61243 150.43969 122.7059z" clip-path="url(#SVGID_3_)"/>
+                <path id="path85" class="st2" d="m512.20001 724.4713s-34.02226-3.38611-60.7886-21.7678c-26.60509-18.54294-204.29483-145.44116-204.29483-145.44116v251.37778s1.45118 29.18498 33.69978 29.18498h231.38365 231.38365c32.2486 0 33.69978-29.18498 33.69978-29.18498v-251.37778s-177.68974 127.05946-204.45607 145.44116c-26.60509 18.54294-60.62736 21.7678-60.62736 21.7678z" clip-path="url(#SVGID_3_)"/>
+            </g>
+        </g>
+        <g id="g77" transform="matrix(.05002825 0 0 .05002825 5.3034276 5.8040223)">
+            <circle id="circle75" class="st1" cx="850" cy="850" r="174" clip-path="url(#SVGID_2_)"/>
+        </g>
+        <g id="g81" transform="matrix(.05002825 0 0 .05002825 5.3034276 5.8040223)">
+            <path id="path79" class="st2" d="m784.4 773.1h90.7c15.1 0 26.7 3.7 34.8 11.2s12.1 16.8 12.1 27.8c0 9.3-2.9 17.2-8.7 23.8-3.8 4.4-9.5 7.9-16.9 10.5 11.3 2.7 19.5 7.4 24.9 14 5.3 6.6 8 14.9 8 24.9 0 8.1-1.9 15.4-5.7 21.9s-8.9 11.6-15.5 15.4c-4.1 2.4-10.2 4.1-18.4 5.1-10.9 1.4-18.1 2.1-21.7 2.1h-83.6zm48.9 61.5h21.1c7.6 0 12.8-1.3 15.8-3.9s4.4-6.4 4.4-11.3c0-4.6-1.5-8.1-4.4-10.7-3-2.6-8.1-3.8-15.5-3.8h-21.4zm0 61.6h24.7c8.3 0 14.2-1.5 17.6-4.4 3.4-3 5.1-6.9 5.1-11.9 0-4.6-1.7-8.4-5.1-11.2s-9.3-4.2-17.8-4.2h-24.6z" clip-path="url(#SVGID_3_)"/>
+        </g>
+    </g>
+</svg>

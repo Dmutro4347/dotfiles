@@ -1,0 +1,91 @@
+[2022-08-30 22:28:48.301] [exthost] [info] Extension host with pid 1036 started
+[2022-08-30 22:28:48.302] [exthost] [info] Skipping acquiring lock for /home/arfors/.config/VSCodium/User/workspaceStorage/7ef44597acbedb2f51f57eefd4778ae0.
+[2022-08-30 22:28:48.426] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-30 22:28:48.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-30 22:28:48.447] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-30 22:28:48.454] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-08-30 22:28:48.474] [exthost] [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+[2022-08-30 22:28:48.577] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: true, activationEvent: '*'
+[2022-08-30 22:28:48.931] [exthost] [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+[2022-08-30 22:28:48.934] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+[2022-08-30 22:28:49.015] [exthost] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+[2022-08-30 22:28:49.020] [exthost] [info] ExtensionService#_doActivateExtension reduckted.vscode-gitweblinks, startup: true, activationEvent: '*'
+[2022-08-30 22:28:49.034] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-08-30 22:28:49.396] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-30 22:28:49.450] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-30 22:28:49.462] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-08-30 22:28:51.146] [exthost] [info] Eager extensions activated
+[2022-08-30 22:28:51.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:28:51.156] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:28:51.158] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:28:51.169] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:28:51.214] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:28:51.265] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+[2022-08-30 22:28:51.274] [exthost] [info] ExtensionService#_doActivateExtension felipecaputo.git-project-manager, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:28:51.331] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:28:51.342] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:28:51.762] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:28:58.984] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-30 22:28:59.216] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-30 22:28:59.957] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-08-30 22:29:09.611] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:29:09.741] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-30 22:29:09.752] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-30 22:29:09.767] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-30 22:29:13.607] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:29:32.535] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:29:44.327] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:35:41.253] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:38:24.545] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:38:26.417] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:39:08.300] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:39:10.543] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:39:37.990] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:39:58.941] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:40:36.034] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:40:44.629] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:40:54.685] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:41:05.054] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:41:09.832] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:41:41.710] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:41:49.358] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:41:51.397] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:41:57.400] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:42:21.808] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:42:31.442] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-30 22:42:31.461] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arfors/.vscode-oss/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2147823
+	at /home/arfors/.vscode-oss/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2148117
+	at Immediate.<anonymous> (/home/arfors/.vscode-oss/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2148479)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-30 22:42:42.888] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:42:51.631] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:47:12.162] [exthost] [warning] TextEditor is closed/disposed
+[2022-08-30 22:48:33.493] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-30 22:48:33.535] [exthost] [error] Canceled: Canceled
+	at Object.R [as canceled] (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:9094
+	at Array.forEach (<anonymous>)
+	at o.dispose (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:9042)
+	at w.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:10969)
+	at w.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:19088)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:17016
+	at w.invoke (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at E.deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:19006)
+	at i._receiveMessage (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23593)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21127
+	at w.invoke (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at E.deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15837)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14967
+	at Socket.l (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:26303)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23) pr.signin {"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"}
+[2022-08-30 22:48:33.539] [exthost] [info] Extension host with pid 1036 exiting with code 0

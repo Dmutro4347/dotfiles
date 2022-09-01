@@ -1,0 +1,47 @@
+<svg id="SimpleNote" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <defs id="defs15">
+        <style id="style4" type="text/css"/>
+        <filter id="filter1057" x="-.026999999" y="-.026999999" width="1.054" height="1.054" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur1059" stdDeviation="0.61875"/>
+        </filter>
+        <linearGradient id="linearGradient1053" x1="-127" x2="-72" y1="60" y2="5" gradientTransform="translate(131.5 -.5099984)" gradientUnits="userSpaceOnUse">
+            <stop id="stop1047" stop-color="#2c96ff" offset="0"/>
+            <stop id="stop1049" stop-color="#329bff" offset="1"/>
+        </linearGradient>
+        <style id="style872" type="text/css"/>
+        <style id="style4-5" type="text/css"/>
+        <style id="style6" type="text/css"/>
+        <style id="style8" type="text/css"/>
+        <style id="style872-0" type="text/css"/>
+        <style id="style874" type="text/css"/>
+        <style id="style876" type="text/css"/>
+        <filter id="filter2166" x="-.02360903" y="-.031528435" width="1.0472181" height="1.0630569" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur2168" stdDeviation="0.39410544"/>
+        </filter>
+    </defs>
+    <circle id="circle16" cx="-1124.8" cy="-1279.3" r="0" fill="#5e4aa6"/>
+    <g id="g26" transform="matrix(3.7796,0,0,3.7796,123.83,-38.184)" fill="#5e4aa6" stroke-width=".26458">
+        <circle id="circle18" cx="-299.01999" cy="-338.76999" r="0"/>
+        <circle id="circle20" cx="-8.1062002" cy="-3.9487" r="0" fill-rule="evenodd"/>
+        <circle id="circle22" cx="-278.25" cy="-357.69" r="0"/>
+        <circle id="circle24" cx="12.663" cy="-22.858999" r="0" fill-rule="evenodd"/>
+    </g>
+    <rect id="rect1055" x="4.4999995" y="4.4999995" width="55" height="55" ry="15" fill="#141414" filter="url(#filter1057)" opacity=".3" stroke-linecap="round" stroke-width="2.74436"/>
+    <rect id="rect1045" x="4.5000019" y="4.5000019" width="54.999996" height="54.999996" ry="14.999999" fill="url(#linearGradient1053)" stroke-linecap="round" stroke-width="2.74436"/>
+    <g id="g2164" fill-rule="evenodd" filter="url(#filter2166)" opacity=".5" stroke-opacity=".233111" stroke-width="18">
+        <circle id="circle2152" transform="scale(1,-1)" cx="14.968406" cy="-44" r="3"/>
+        <rect id="rect2154" transform="scale(1,-1)" x="21.968405" y="-47" width="20.918745" height="6" ry="3"/>
+        <circle id="circle2156" transform="scale(1,-1)" cx="14.968406" cy="-32" r="3"/>
+        <rect id="rect2158" transform="scale(1,-1)" x="21.968405" y="-35" width="26.116507" height="6" ry="3"/>
+        <circle id="circle2160" transform="scale(1,-1)" cx="14.968406" cy="-20" r="3"/>
+        <rect id="rect2162" transform="scale(1,-1)" x="21.968405" y="-23" width="30.06319" height="6" ry="3"/>
+    </g>
+    <g fill-rule="evenodd" stroke-opacity=".233111" stroke-width="18">
+        <circle id="path2032" transform="scale(1,-1)" cx="14.968406" cy="-44" r="3" fill="#ffccd4"/>
+        <rect id="rect2086" transform="scale(1,-1)" x="21.968405" y="-47" width="20.918745" height="6" ry="3" fill="#ffccd4"/>
+        <circle id="circle2110" transform="scale(1,-1)" cx="14.968406" cy="-32" r="3" fill="#cce2ff"/>
+        <rect id="rect2112" transform="scale(1,-1)" x="21.968405" y="-35" width="26.116507" height="6" ry="3" fill="#cce2ff"/>
+        <circle id="circle2116" transform="scale(1,-1)" cx="14.968406" cy="-20" r="3" fill="#d9ccff"/>
+        <rect id="rect2118" transform="scale(1,-1)" x="21.968405" y="-23" width="30.06319" height="6" ry="3" fill="#d9ccff"/>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+[2022-08-29 23:12:10.798] [exthost] [info] Extension host with pid 995 started
+[2022-08-29 23:12:10.843] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-29 23:12:10.853] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-29 23:12:10.859] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-29 23:12:10.912] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-08-29 23:12:10.949] [exthost] [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+[2022-08-29 23:12:11.295] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: true, activationEvent: '*'
+[2022-08-29 23:12:11.482] [exthost] [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+[2022-08-29 23:12:11.484] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+[2022-08-29 23:12:11.516] [exthost] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+[2022-08-29 23:12:11.518] [exthost] [info] ExtensionService#_doActivateExtension reduckted.vscode-gitweblinks, startup: true, activationEvent: '*'
+[2022-08-29 23:12:11.525] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-08-29 23:12:11.783] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-29 23:12:11.808] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-29 23:12:11.813] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-08-29 23:12:12.381] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-29 23:12:12.386] [exthost] [info] Extension host with pid 995 exiting with code 0

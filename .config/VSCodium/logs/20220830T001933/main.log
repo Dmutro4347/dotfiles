@@ -1,0 +1,10 @@
+[2022-08-30 00:19:33.508] [main] [info] update#setState idle
+[2022-08-30 00:19:35.414] [main] [info] Starting extension host with pid 1050 (fork() took 6 ms).
+[2022-08-30 00:20:03.512] [main] [info] update#setState checking for updates
+[2022-08-30 00:20:03.530] [main] [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[2022-08-30 00:20:03.531] [main] [info] update#setState idle
+[2022-08-30 00:20:07.962] [main] [info] Extension host with pid 1050 exited with code: 0, signal: null.
+[2022-08-30 00:20:09.082] [main] [info] Starting extension host with pid 1453 (fork() took 5 ms).
+[2022-08-30 00:25:52.698] [main] [info] Extension host with pid 1453 exited with code: 0, signal: null.

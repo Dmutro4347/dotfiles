@@ -1,0 +1,47 @@
+<svg id="svg24" width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs id="defs12">
+        <filter id="filter1057" x="-.026999999" y="-.026999999" width="1.054" height="1.054" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur1059" stdDeviation="0.61875"/>
+        </filter>
+        <linearGradient id="linearGradient1053" x1="-127" x2="-72" y1="60" y2="5" gradientTransform="matrix(.26457812 0 0 .26457812 34.792023 -.13493401)" gradientUnits="userSpaceOnUse">
+            <stop id="stop1047" stop-color="#e4e4e4" offset="0"/>
+            <stop id="stop1049" stop-color="#f1f3f5" stop-opacity=".99607843" offset="1"/>
+        </linearGradient>
+    </defs>
+    <rect id="rect1055" transform="scale(.26457812)" x="4.4999995" y="4.4999995" width="55" height="55" ry="15" fill="#141414" filter="url(#filter1057)" opacity=".3" stroke-linecap="round" stroke-width="2.74436"/>
+    <rect id="rect1045" x="1.1906021" y="1.1906021" width="14.551796" height="14.551796" ry="3.9686716" fill="url(#linearGradient1053)" stroke-linecap="round" stroke-width=".726098"/>
+    <g id="g273">
+        <path id="path6770" d="m5.44337 6.674652" fill="none" stroke="#000" stroke-width=".0126774px"/>
+        <g fill="#625f67" stroke-width="0">
+            <rect id="rect9589" x="3.0177593" y="3.9063404" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+            <rect id="rect9593" x="5.8928757" y="3.9063404" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+            <rect id="rect9595" x="8.7678308" y="3.9063404" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+            <rect id="rect9597" x="11.592239" y="3.9063404" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+            <rect id="rect9599" x="4.3598804" y="7.2130795" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+            <rect id="rect9601" x="7.4191914" y="7.2010283" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+        </g>
+        <g stroke-width="0">
+            <rect id="rect9603" x="10.355861" y="7.2010283" width="2.3138916" height="2.5687888" ry=".76258129" fill="#ff7402" style="paint-order:normal"/>
+            <rect id="rect9605" x="3.0220766" y="10.45787" width="2.3138916" height="2.5687888" ry=".76258129" fill="#625f67" style="paint-order:normal"/>
+            <rect id="rect9607" x="11.601349" y="10.45787" width="2.3138916" height="2.5687888" ry=".76258129" fill="#625f67" style="paint-order:normal"/>
+            <rect id="rect9609" x="5.7908173" y="10.45787" width="5.3315425" height="2.5687883" ry=".76258123" fill="#aeadad" style="paint-order:normal"/>
+        </g>
+    </g>
+    <g id="g297" transform="translate(0 .36659684)" opacity=".5">
+        <path id="path275" d="m5.44337 6.674652" fill="none" stroke="#000" stroke-width=".0126774px"/>
+        <g fill="#625f67" stroke-width="0">
+            <rect id="rect277" x="3.0177593" y="3.9063404" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+            <rect id="rect279" x="5.8928757" y="3.9063404" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+            <rect id="rect281" x="8.7678308" y="3.9063404" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+            <rect id="rect283" x="11.592239" y="3.9063404" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+            <rect id="rect285" x="4.3598804" y="7.2130795" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+            <rect id="rect287" x="7.4191914" y="7.2010283" width="2.3138916" height="2.5687888" ry=".76258129" style="paint-order:normal"/>
+        </g>
+        <g stroke-width="0">
+            <rect id="rect289" x="10.355861" y="7.2010283" width="2.3138916" height="2.5687888" ry=".76258129" fill="#ff7402" style="paint-order:normal"/>
+            <rect id="rect291" x="3.0220766" y="10.45787" width="2.3138916" height="2.5687888" ry=".76258129" fill="#625f67" style="paint-order:normal"/>
+            <rect id="rect293" x="11.601349" y="10.45787" width="2.3138916" height="2.5687888" ry=".76258129" fill="#625f67" style="paint-order:normal"/>
+            <rect id="rect295" x="5.7908173" y="10.45787" width="5.3315425" height="2.5687883" ry=".76258123" fill="#aeadad" style="paint-order:normal"/>
+        </g>
+    </g>
+</svg>

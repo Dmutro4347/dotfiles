@@ -1,0 +1,339 @@
+{
+	"name": "vscode-gitweblinks",
+	"displayName": "Git Web Links for VS Code",
+	"description": "Copy links to files in their online Git repositories",
+	"version": "2.7.0",
+	"publisher": "reduckted",
+	"homepage": "https://github.com/reduckted/GitWebLinks",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/reduckted/GitWebLinks"
+	},
+	"bugs": {
+		"url": "https://github.com/reduckted/GitWebLinks/issues"
+	},
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#F0F0E6",
+		"theme": "light"
+	},
+	"keywords": [
+		"azure devops",
+		"bitbucket",
+		"git",
+		"github",
+		"gitlab"
+	],
+	"private": true,
+	"main": "./dist/extension",
+	"license": "MIT",
+	"scripts": {
+		"vscode:prepublish": "npm run build",
+		"lint": "eslint --ext .ts .",
+		"build": "webpack --mode production",
+		"pretest:clean": "rimraf ./out-test",
+		"pretest:build": "tsc -p ./",
+		"pretest": "run-s pretest:clean pretest:build",
+		"test": "node ./out-test/test/run.js",
+		"watch": "webpack --mode development --watch",
+		"debug-build": "webpack --mode development",
+		"debug-test": "npm run pretest"
+	},
+	"dependencies": {
+		"liquidjs": "9.34.1",
+		"spawn-rx": "3.0.0"
+	},
+	"devDependencies": {
+		"@types/chai": "4.3.0",
+		"@types/mocha": "9.1.0",
+		"@types/node": "14.14.45",
+		"@types/rimraf": "3.0.2",
+		"@types/sinon": "10.0.11",
+		"@types/sinon-chai": "3.2.8",
+		"@types/uuid": "8.3.4",
+		"@types/vscode": "1.50.0",
+		"@types/webpack-env": "1.16.3",
+		"@typescript-eslint/eslint-plugin": "5.12.0",
+		"@typescript-eslint/parser": "5.12.0",
+		"ajv": "8.10.0",
+		"chai": "4.3.6",
+		"eslint": "8.9.0",
+		"eslint-config-prettier": "8.4.0",
+		"eslint-plugin-import": "2.25.4",
+		"eslint-plugin-jest": "26.1.1",
+		"eslint-plugin-jsdoc": "37.9.4",
+		"eslint-plugin-node": "11.1.0",
+		"glob": "7.2.0",
+		"mocha": "9.2.1",
+		"npm-run-all": "4.1.5",
+		"prettier": "2.5.1",
+		"rimraf": "3.0.2",
+		"sinon": "13.0.1",
+		"sinon-chai": "3.7.0",
+		"ts-loader": "9.2.6",
+		"typescript": "4.5.5",
+		"uuid": "8.3.2",
+		"vsce": "2.6.7",
+		"vscode-test": "1.6.1",
+		"webpack": "5.69.1",
+		"webpack-cli": "4.9.2"
+	},
+	"engines": {
+		"vscode": "^1.50.0",
+		"node": ">=12.0.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "gitweblinks.copyFile",
+				"title": "Copy Link to File",
+				"category": "Git Web Links"
+			},
+			{
+				"command": "gitweblinks.copySelection",
+				"title": "Copy Link to Selection",
+				"category": "Git Web Links"
+			},
+			{
+				"command": "gitweblinks.copySelectionToDefaultBranch",
+				"title": "Copy Link to Selection (on default branch)",
+				"category": "Git Web Links"
+			},
+			{
+				"command": "gitweblinks.copySelectionToBranch",
+				"title": "Copy Link to Selection (on current branch)",
+				"category": "Git Web Links"
+			},
+			{
+				"command": "gitweblinks.copySelectionToCommit",
+				"title": "Copy Link to Selection (at current commit)",
+				"category": "Git Web Links"
+			},
+			{
+				"command": "gitweblinks.openFile",
+				"title": "Open Link to File",
+				"category": "Git Web Links"
+			},
+			{
+				"command": "gitweblinks.openSelection",
+				"title": "Open Link to Selection",
+				"category": "Git Web Links"
+			},
+			{
+				"command": "gitweblinks.goToFile",
+				"title": "Go To File...",
+				"category": "Git Web Links"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"command": "gitweblinks.copySelection",
+					"group": "gitweblinks@1",
+					"when": "gitweblinks:hasRepositories && gitweblinks:canCopy"
+				},
+				{
+					"command": "gitweblinks.openSelection",
+					"group": "gitweblinks@2",
+					"when": "gitweblinks:hasRepositories && gitweblinks:canOpen"
+				}
+			],
+			"editor/title/context": [
+				{
+					"command": "gitweblinks.copyFile",
+					"group": "gitweblinks@1",
+					"when": "gitweblinks:hasRepositories && gitweblinks:canCopy"
+				},
+				{
+					"command": "gitweblinks.openFile",
+					"group": "gitweblinks@2",
+					"when": "gitweblinks:hasRepositories && gitweblinks:canOpen"
+				}
+			],
+			"explorer/context": [
+				{
+					"command": "gitweblinks.copyFile",
+					"group": "gitweblinks@1",
+					"when": "gitweblinks:hasRepositories && gitweblinks:canCopy"
+				},
+				{
+					"command": "gitweblinks.openFile",
+					"group": "gitweblinks@2",
+					"when": "gitweblinks:hasRepositories && gitweblinks:canOpen"
+				}
+			]
+		},
+		"configuration": {
+			"title": "Git Web Links configuration",
+			"properties": {
+				"gitweblinks.linkType": {
+					"type": "string",
+					"description": "The type of links to create by default.",
+					"enum": [
+						"defaultBranch",
+						"commit",
+						"branch"
+					],
+					"enumDescriptions": [
+						"Create a link to the default branch.",
+						"Create a link to the current commit.",
+						"Create a link to the current branch."
+					],
+					"default": "commit"
+				},
+				"gitweblinks.defaultBranch": {
+					"type": "string",
+					"description": "The name of the branch to use when creating a link to the default branch.",
+					"default": "master"
+				},
+				"gitweblinks.preferredRemoteName": {
+					"type": "string",
+					"description": "The name of the remote to use when finding the remote repository details.",
+					"default": "origin"
+				},
+				"gitweblinks.azureDevOpsServer": {
+					"type": "array",
+					"description": "The URLs of your Azure DevOps Server instances.",
+					"items": {
+						"type": "object",
+						"properties": {
+							"http": {
+								"type": "string",
+								"description": "The base URL for the website. For example:\nhttp://azure.my-server:8000"
+							},
+							"ssh": {
+								"type": "string",
+								"description": "The SSH URL for remotes. For example:\nssh://azure.my-server:22"
+							}
+						},
+						"required": [
+							"http"
+						],
+						"additionalProperties": false
+					}
+				},
+				"gitweblinks.bitbucketServer": {
+					"type": "array",
+					"description": "The URLs of your Bitbucket Server instances.",
+					"items": {
+						"type": "object",
+						"properties": {
+							"http": {
+								"type": "string",
+								"description": "The base URL for the website. For example:\nhttp://my-server:7990/bitbucket"
+							},
+							"ssh": {
+								"type": "string",
+								"description": "The SSH URL for remotes. For example:\nssh://my-server:7999/bitbucket"
+							}
+						},
+						"required": [
+							"http"
+						],
+						"additionalProperties": false
+					}
+				},
+				"gitweblinks.gitHubEnterprise": {
+					"type": "array",
+					"description": "The URLs of your GitHub Enterprise instances.",
+					"items": {
+						"type": "object",
+						"properties": {
+							"http": {
+								"type": "string",
+								"description": "The base URL for the website. For example:\nhttp://github.my-server:8000"
+							},
+							"ssh": {
+								"type": "string",
+								"description": "The SSH URL for remotes. For example:\nssh://github.my-server"
+							}
+						},
+						"required": [
+							"http"
+						],
+						"additionalProperties": false
+					}
+				},
+				"gitweblinks.gitLabEnterprise": {
+					"type": "array",
+					"description": "The URLs of your GitLab Enterprise Edition or GitLab Community Edition instances.",
+					"items": {
+						"type": "object",
+						"properties": {
+							"http": {
+								"type": "string",
+								"description": "The base URL for the website. For example:\nhttp://gitlab.my-server:8000"
+							},
+							"ssh": {
+								"type": "string",
+								"description": "The SSH URL for remotes. For example:\nssh://gitlab.my-server"
+							}
+						},
+						"required": [
+							"http"
+						],
+						"additionalProperties": false
+					}
+				},
+				"gitweblinks.gitiles": {
+					"type": "array",
+					"description": "The URLs of your Gitiles instances.",
+					"items": {
+						"type": "object",
+						"properties": {
+							"http": {
+								"type": "string",
+								"description": "The base URL for the website. For example:\nhttps://git.mygitiles.com:8080/plugins/gitiles"
+							},
+							"ssh": {
+								"type": "string",
+								"description": "The SSH URL for remotes. For example:\nssh://git.mygitiles.com:29418"
+							}
+						},
+						"required": [
+							"http"
+						],
+						"additionalProperties": false
+					}
+				},
+				"gitweblinks.showCopy": {
+					"type": "boolean",
+					"description": "Controls the visibility of the 'Copy Link' menu item.",
+					"default": true
+				},
+				"gitweblinks.showOpen": {
+					"type": "boolean",
+					"description": "Controls the visibility of the 'Open Link' menu item.",
+					"default": false
+				},
+				"gitweblinks.useGitHubDev": {
+					"type": "boolean",
+					"description": "Generate links to 'github.dev' instead of 'github.com'.",
+					"default": false
+				},
+				"gitweblinks.useShortHash": {
+					"type": "boolean",
+					"description": "Use short SHA hashes in links to specific commits.",
+					"default": false
+				}
+			}
+		}
+	},
+	"__metadata": {
+		"id": "fae95695-f600-489f-afdf-69190f660249",
+		"publisherId": "2c98da2f-20e0-4fa8-908d-a830a0cc8688",
+		"publisherDisplayName": null,
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1661729630050
+	}
+}

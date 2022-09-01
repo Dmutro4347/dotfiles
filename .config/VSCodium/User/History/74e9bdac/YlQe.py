@@ -1,0 +1,7 @@
+class View:
+
+  def main_menu(self):
+    print('1 - Список задач')
+    print('2 - Додати задачу')
+
+    return input('Що робимо? ')

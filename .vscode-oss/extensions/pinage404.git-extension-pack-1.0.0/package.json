@@ -1,0 +1,51 @@
+{
+	"name": "git-extension-pack",
+	"displayName": "Git Extension Pack",
+	"description": "Opinionated extension pack to improve Git usage (Git hosting agnostic)",
+	"keywords": [
+		"git"
+	],
+	"version": "1.0.0",
+	"icon": "Git-Icon-1788C.png",
+	"galleryBanner": {
+		"color": "#212121",
+		"theme": "dark"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"bee.git-temporal-vscode",
+		"eamodio.gitlens",
+		"felipecaputo.git-project-manager",
+		"letmaik.git-tree-compare",
+		"mhutchie.git-graph",
+		"reduckted.vscode-gitweblinks",
+		"trentrand.git-rebase-shortcuts"
+	],
+	"engines": {
+		"vscode": "^1.59.0"
+	},
+	"private": true,
+	"license": "MIT",
+	"publisher": "pinage404",
+	"homepage": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs/-/tree/main/packages/git",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs.git"
+	},
+	"bugs": {
+		"url": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs/-/issues"
+	},
+	"__metadata": {
+		"id": "7a160397-2776-4848-a91e-696535e29cd5",
+		"publisherId": "4dc9ef44-41b6-4fb6-af73-1506fbfa493b",
+		"publisherDisplayName": null,
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1661729631499
+	}
+}

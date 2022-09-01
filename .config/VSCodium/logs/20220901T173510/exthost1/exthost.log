@@ -1,0 +1,4 @@
+[2022-09-01 17:35:14.189] [exthost] [info] Extension host with pid 1131 started
+[2022-09-01 17:35:14.190] [exthost] [info] Skipping acquiring lock for /home/arfors/.config/VSCodium/User/workspaceStorage/7ef44597acbedb2f51f57eefd4778ae0.
+[2022-09-01 17:35:14.193] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-09-01 17:35:14.194] [exthost] [info] Extension host with pid 1131 exiting with code 0

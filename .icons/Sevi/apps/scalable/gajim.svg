@@ -1,0 +1,26 @@
+<svg id="svg16" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs id="defs20">
+        <filter id="filter1057" x="-.027000001" y="-.027000001" width="1.054" height="1.054" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur1059" stdDeviation="0.61875"/>
+        </filter>
+        <linearGradient id="linearGradient1053" x1="-127" x2="-72" y1="60" y2="5" gradientTransform="translate(131.5 -.50999766)" gradientUnits="userSpaceOnUse">
+            <stop id="stop1047" stop-color="#ff8021" offset="0"/>
+            <stop id="stop1049" stop-color="#ffa53c" offset="1"/>
+        </linearGradient>
+        <filter id="filter1053" x="-.075987987" y="-.074037375" width="1.151976" height="1.1480747" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur1055" stdDeviation="0.29956555"/>
+        </filter>
+    </defs>
+    <g>
+        <rect id="rect1055" x="4.4999995" y="4.4999995" width="55" height="55" ry="15" fill="#141414" filter="url(#filter1057)" opacity=".3" stroke-linecap="round" stroke-width="2.74436"/>
+        <rect id="rect1045" x="4.5000019" y="4.5000019" width="54.999996" height="54.999996" ry="14.999999" fill="url(#linearGradient1053)" stroke-linecap="round" stroke-width="2.74436"/>
+        <g id="g1051" transform="matrix(3.251138,0,0,3.251138,3.2366303,4.194467)" fill="#ff6216" filter="url(#filter1053)">
+            <rect id="rect1047" x="4.1164999" y="3.6974001" width="9.4614" height="7.3038998" ry=".91549999" opacity=".5"/>
+            <path id="path1049" d="m12.658 3.6974h-7.742s-0.79822 0.05381-0.79822 0.79822v8.619s-0.03973 0.37275 0.3134 0.27813l9.0134-9.2591s-0.23365-0.43619-0.78657-0.43619z"/>
+        </g>
+    </g>
+    <g id="g896" transform="matrix(3.251138,0,0,3.251138,3.2366303,4.194467)">
+        <rect id="rect892" x="4.1164999" y="3.6974001" width="9.4614" height="7.3038998" ry=".91549999" fill="#fafafa" opacity=".5"/>
+        <path id="path894" d="m12.658 3.6974h-7.742s-0.79822 0.05381-0.79822 0.79822v8.619s-0.03973 0.37275 0.3134 0.27813l9.0134-9.2591s-0.23365-0.43619-0.78657-0.43619z" fill="#fff"/>
+    </g>
+</svg>

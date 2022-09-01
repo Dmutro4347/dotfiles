@@ -1,0 +1,28 @@
+[2022-08-30 22:45:53.983] [exthost] [info] Extension host with pid 5673 started
+[2022-08-30 22:45:54.059] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-30 22:45:54.067] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.071] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-08-30 22:45:54.086] [exthost] [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.135] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.222] [exthost] [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.223] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.233] [exthost] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.234] [exthost] [info] ExtensionService#_doActivateExtension reduckted.vscode-gitweblinks, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.243] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.439] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-30 22:45:54.461] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-08-30 22:45:55.176] [exthost] [info] Eager extensions activated
+[2022-08-30 22:45:55.178] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:45:55.184] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:45:55.185] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:45:55.189] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:45:55.226] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:45:55.242] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+[2022-08-30 22:45:55.248] [exthost] [info] ExtensionService#_doActivateExtension felipecaputo.git-project-manager, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:45:55.269] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:45:55.279] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:45:55.457] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-30 22:48:34.738] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-30 22:48:34.769] [exthost] [info] Extension host with pid 5673 exiting with code 0

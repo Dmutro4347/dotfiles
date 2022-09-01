@@ -1,0 +1,43 @@
+<svg id="svg69" width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs id="defs45">
+        <filter id="filter1057" x="-.026999999" y="-.026999999" width="1.054" height="1.054" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur1059" stdDeviation="0.61875"/>
+        </filter>
+        <linearGradient id="linearGradient1053" x1="-127" x2="-72" y1="60" y2="5" gradientTransform="matrix(.26457812 0 0 .26457812 34.792023 -.13493422)" gradientUnits="userSpaceOnUse">
+            <stop id="stop1047" stop-color="#df2a2a" offset="0"/>
+            <stop id="stop1049" stop-color="#f83f3f" offset="1"/>
+        </linearGradient>
+    </defs>
+    <rect id="rect1055" transform="scale(.26457812)" x="4.5" y="4.5" width="55" height="55" ry="15" fill="#141414" filter="url(#filter1057)" opacity=".3" stroke-linecap="round" stroke-width="2.74436"/>
+    <rect id="rect1045" x="1.1906021" y="1.1906021" width="14.551796" height="14.551796" ry="3.9686716" fill="url(#linearGradient1053)" stroke-linecap="round" stroke-width=".726098"/>
+    <g fill="#5e4aa6">
+        <g stroke-width=".264581">
+            <circle id="circle23" cx="-306.19" cy="-335.54001" r="0"/>
+            <circle id="circle25" cx="-15.28" cy="-.71794993" r="0" fill-rule="evenodd"/>
+            <circle id="circle21" cx="-329.80154" cy="-343.65884" r="0"/>
+            <circle id="circle23-1" cx="-38.892548" cy="-8.8363609" r="0" fill-rule="evenodd"/>
+        </g>
+        <g id="g30" transform="matrix(.26457812 0 0 .26457812 -23.611548 -8.2588608)">
+            <circle id="circle24" cx="-1248.7" cy="-1241.6" r="0"/>
+            <circle id="circle26" cx="-1140.3" cy="-1301.8" r="0"/>
+            <circle id="circle28" cx="-1158.1" cy="-1246" r="0"/>
+        </g>
+        <circle id="circle36" cx="-329.8078" cy="-343.66452" r="0" stroke-width=".264578"/>
+        <circle id="circle38" cx="-38.892521" cy="-8.8364086" r="0" fill-rule="evenodd" stroke-width=".264578"/>
+    </g>
+    <path id="rect1316" d="m8.4664995 3.1749377a5.2915619 5.2915619 0 0 0-5.2915618 5.2915618 5.2915619 5.2915619 0 0 0 5.2915618 5.2915625 5.2915619 5.2915619 0 0 0 5.2915625-5.2915625 5.2915619 5.2915619 0 0 0-5.2915625-5.2915618zm-1.4088008 2.2026643c0.1151449 0.00598 0.222759 0.044002 0.3229714 0.1136862l3.7083569 2.5553491c0.116813 0.082284 0.197748 0.1908508 0.242874 0.3249092 0.04513 0.134075 0.04513 0.2696213 0 0.4050058-0.04512 0.1340584-0.126035 0.2426499-0.244166 0.3236174l-3.7070649 2.5553483c-0.134055 0.091579-0.2799372 0.128428-0.4405328 0.108519-0.1606023-0.019905-0.2936159-0.090442-0.4011305-0.211224-0.1075113-0.120789-0.1621314-0.262452-0.1621314-0.424383v-5.110053c0-0.1619317 0.05462-0.3042305 0.1621314-0.4250302 0.107525-0.1207863 0.2405216-0.1913138 0.4011305-0.2112233 0.04004-0.00508 0.079181-0.00652 0.1175612-0.00453z" fill="#fff" stroke-width=".661445"/>
+    <g id="layer2" transform="matrix(.26457812 0 0 .26457812 -46.092203 -55.287064)" display="none">
+        <text id="context" x="7.9499588" y="148.65199" display="inline" enable-background="new" fill="#000000" font-family="Cantarell" font-size="5.33333px" stroke-width=".332649" style="line-height:125%" xml:space="preserve"><tspan id="tspan2716" x="7.9499588" y="148.65199" font-size="5.33333px" stroke-width=".332649">apps</tspan></text>
+        <text id="text3021" x="7.7533054" y="157.23398" display="inline" enable-background="new" fill="#000000" font-family="Cantarell" font-size="5.33333px" font-weight="bold" stroke-width=".332649" style="line-height:125%" xml:space="preserve"><tspan id="tspan3023" x="7.7533054" y="157.23398" font-size="5.33333px" stroke-width=".332649">org.gnome.Lollypop</tspan></text>
+        <rect id="rect13805" x="9.2651362e-8" y="172" width="128" height="128" display="inline" fill="#f0f0f0"/>
+        <g id="g1168" transform="matrix(.25 0 0 .25 6.9488522e-8 225)" fill="#2864b0">
+            <circle id="path1142" cx="256" cy="44" r="240" opacity=".1" style="paint-order:normal"/>
+            <rect id="rect1110" x="96" y="-180" width="319.99979" height="448" rx="32" ry="32" opacity=".1" style="paint-order:normal"/>
+            <rect id="rect1110-8" x="48" y="-164" width="416" height="416" rx="32" ry="32" display="inline" enable-background="new" opacity=".1" style="paint-order:normal"/>
+            <rect id="rect1110-8-9" x="32" y="-116" width="448" height="320" rx="32" ry="32" display="inline" enable-background="new" opacity=".1" style="paint-order:normal"/>
+        </g>
+    </g>
+    <g id="layer9" transform="matrix(.26457812 0 0 .26457812 -46.092203 -55.287064)">
+        <path id="path1047-3" d="m193.71018 213.4631c-4.25188 0-8.07623 1.75443-10.80078 4.57812 0.74362 4.6769 2.28875 9.03191 6.37696 13.68946a19.277476 19.277476 0 0 1 5.17578-6.03711c-0.39074-4.62349 0.6189-8.55878 2.42969-12.23047h-3.18165zm16.50196 0c-1.78725 2.18875-3.30425 4.80261-4.46875 8.23828a19.277476 19.277476 0 0 1 0.46679-0.01562 19.277476 19.277476 0 0 1 7.35743 1.46679c5.37546-3.73711 10.95386-4.40587 16.94531-3.96289-2.74177-3.49011-7.00028-5.72656-11.80274-5.72656h-8.49804zm18.125 16.91992c-1.8336-0.0358-3.69891 0.14665-5.68945 0.53906a19.277476 19.277476 0 0 1 2.64843 7.50196c3.62029 1.69999 6.28772 4.03741 8.41407 6.82812v-14.17187c-1.82585-0.4206-3.58806-0.66159-5.37305-0.69727zm-49.62696 6.29297v14.24805c3.25552 0.76012 6.77237 0.93123 11.0586 0.07422a19.277476 19.277476 0 0 1-2.64649-7.49414c-3.61983-1.69981-6.28585-4.03696-8.41211-6.82813zm44.42383 13.51953a19.277476 19.277476 0 0 1-5.17578 6.03711c0.39072 4.62349-0.61885 8.55878-2.42969 12.23047h3.18164c4.25238 0 8.07814-1.75386 10.80274-4.57812-0.74383-4.67698-2.29092-9.03195-6.37891-13.68946zm-24.28125 8.57813c-5.37464 3.73679-10.95093 4.40949-16.9414 3.96679 2.74189 3.48765 6.99835 5.72266 11.79882 5.72266h8.50586c1.78592-2.18993 3.30191-4.80383 4.46485-8.24023a19.277476 19.277476 0 0 1-0.47071 0.01757 19.277476 19.277476 0 0 1-7.35742-1.46679z" enable-background="new" fill="#fff"/>
+    </g>
+</svg>

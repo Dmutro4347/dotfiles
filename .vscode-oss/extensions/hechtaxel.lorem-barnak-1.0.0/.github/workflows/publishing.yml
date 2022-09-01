@@ -1,0 +1,51 @@
+# Copyright (c) Read The Docs <opensource@readthedocs.fr>
+
+name: Publishing
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 15.x
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Package
+        run: yarn package
+
+      - name: Get release
+        id: release
+        uses: bruceadams/get-release@v1.2.2
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Upload asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.release.outputs.upload_url }}
+          asset_path: ./lorem-barnak.vsix
+          asset_name: lorem-barnak-${{ steps.release.outputs.tag_name }}.vsix
+          asset_content_type: application/vsix
+
+      - name: Publish on Visual Studio Marketplace
+        continue-on-error: true
+        run: yarn deploy-vsce --packagePath lorem-barnak.vsix
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      - name: Publish on Open VSX
+        continue-on-error: true
+        run: yarn deploy-ovsx lorem-barnak.vsix -p ${{ secrets.OVSX_PAT }}

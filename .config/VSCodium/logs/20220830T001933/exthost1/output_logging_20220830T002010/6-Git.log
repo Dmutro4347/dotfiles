@@ -1,0 +1,31 @@
+[2022-08-29T23:20:11.060Z] Log level: Info
+[2022-08-29T23:20:11.061Z] [info] Validating found git in: git
+[2022-08-29T23:20:11.072Z] [info] Using git  from git
+[2022-08-29T23:20:11.087Z] > git rev-parse --show-toplevel [7ms]
+[2022-08-29T23:20:11.128Z] > git rev-parse --git-dir --git-common-dir [32ms]
+[2022-08-29T23:20:11.132Z] [info] Open repository: /home/arfors/.config/code
+[2022-08-29T23:20:11.150Z] > git status -z -uall [8ms]
+[2022-08-29T23:20:11.164Z] > git symbolic-ref --short HEAD [10ms]
+[2022-08-29T23:20:11.172Z] > git rev-parse --show-toplevel [27ms]
+[2022-08-29T23:20:11.172Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-29T23:20:11.227Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [55ms]
+[2022-08-29T23:20:11.240Z] > git remote --verbose [6ms]
+[2022-08-29T23:20:11.240Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-08-29T23:20:11.243Z] > git fetch [105ms]
+[2022-08-29T23:20:11.243Z] fatal: unable to access 'https://github.com/Dmutro4347/my-studie.git/': Could not resolve host: github.com
+[2022-08-29T23:20:11.264Z] > git config --get commit.template [17ms]
+[2022-08-29T23:20:11.284Z] > git status -z -uall [16ms]
+[2022-08-29T23:20:11.306Z] > git symbolic-ref --short HEAD [19ms]
+[2022-08-29T23:20:11.330Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+[2022-08-29T23:20:11.388Z] > git remote --verbose [52ms]
+[2022-08-29T23:20:11.389Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [56ms]
+[2022-08-29T23:20:11.403Z] > git config --get commit.template [10ms]
+[2022-08-29T23:20:11.491Z] > git config --local branch.master.github-pr-owner-number [2ms]
+[2022-08-29T23:20:11.724Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-29T23:23:12.162Z] > git fetch [913ms]
+[2022-08-29T23:23:12.179Z] > git status -z -uall [4ms]
+[2022-08-29T23:23:12.195Z] > git symbolic-ref --short HEAD [3ms]
+[2022-08-29T23:23:12.213Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+[2022-08-29T23:23:12.229Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-08-29T23:23:12.229Z] > git remote --verbose [1ms]
+[2022-08-29T23:23:12.238Z] > git config --get commit.template [1ms]

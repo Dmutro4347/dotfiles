@@ -1,0 +1,6 @@
+{
+    "explorer.confirmDelete": false,
+    "git.useEditorAsCommitInput": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Ayu Dark"
+}

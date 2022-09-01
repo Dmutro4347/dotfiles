@@ -1,0 +1,14 @@
+{
+    "explorer.confirmDelete": false,
+    "git.useEditorAsCommitInput": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Bearded Theme Monokai Reversed",
+    "editor.inlayHints.fontSize": 17,
+    "editor.fontSize": 17,
+    "editor.tabSize": 2,
+    "workbench.iconTheme": "vscode-icons",
+    "window.menuBarVisibility": "toggle",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "git.enableSmartCommit": true
+}

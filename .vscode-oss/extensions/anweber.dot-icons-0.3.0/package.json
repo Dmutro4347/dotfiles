@@ -1,0 +1,74 @@
+{
+	"name": "dot-icons",
+	"displayName": "dot-icons",
+	"version": "0.3.0",
+	"description": "Icons with a dot",
+	"publisher": "anweber",
+	"scripts": {
+		"compile": "ts-node ./src/build.ts",
+		"prepublish": "npm run compile"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anweber/dot-icons.git"
+	},
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"icons",
+		"theme",
+		"icon-theme",
+		"customization"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "dot",
+				"label": "dot",
+				"path": "dist/dot_config.json"
+			},
+			{
+				"id": "dot_gray",
+				"label": "dot (gray)",
+				"path": "dist/dot_gray_config.json"
+			},
+			{
+				"id": "dot_small",
+				"label": "dot small",
+				"path": "dist/dot_small_config.json"
+			},
+			{
+				"id": "dot_small_gray",
+				"label": "dot small (gray)",
+				"path": "dist/dot_small_gray_config.json"
+			}
+		]
+	},
+	"author": "AnWeber",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/anweber/dot-icons/issues"
+	},
+	"homepage": "https://github.com/anweber/dot-icons#readme",
+	"devDependencies": {
+		"@types/node": "^17.0.18",
+		"ts-node": "^10.5.0",
+		"typescript": "^4.5.5"
+	},
+	"__metadata": {
+		"id": "6b111a0c-464d-45a4-8848-a186389406ee",
+		"publisherId": "84acfa28-26e8-42a8-a9b5-19ace773a7b2",
+		"publisherDisplayName": null,
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1661428541552
+	}
+}

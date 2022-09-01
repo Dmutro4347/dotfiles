@@ -1,0 +1,22 @@
+[2022-08-30 21:28:51.719] [GIT  ] [/home/arfors/.config/polybar] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 20 ms
+
+[2022-08-30 21:30:18.348] [GIT  ] [/home/arfors/.config/code] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • file python-code/problem/main.py has only 21 lines • 21 ms
+
+[2022-08-30 21:35:35.928] [GIT  ] [/home/arfors/.config/code] git log --format=%x3cr%x3e%x20%H -n3 -m -L 23,23:python-code/problem/main.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 23,23:python-code/problem/main.py • file python-code/problem/main.py has only 21 lines • 13 ms
+
+[2022-08-30 21:39:44.691] [GIT  ] [/home/arfors/.config/code] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • file python-code/problem/main.py has only 21 lines • 31 ms
+
+[2022-08-30 21:39:49.048] [GIT  ] [/home/arfors/.config/code] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • file python-code/problem/main.py has only 21 lines • 8 ms
+
+[2022-08-30 21:39:57.900] [GIT  ] [/home/arfors/.config/code] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • file python-code/problem/main.py has only 21 lines • 5 ms
+
+[2022-08-30 21:40:15.175] [GIT  ] [/home/arfors/.config/code] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • file python-code/problem/main.py has only 21 lines • 29 ms
+
+[2022-08-30 21:40:23.605] [GIT  ] [/home/arfors/.config/code] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • file python-code/problem/main.py has only 21 lines • 12 ms
+
+[2022-08-30 21:40:32.512] [GIT  ] [/home/arfors/.config/code] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • file python-code/problem/main.py has only 21 lines • 23 ms
+
+[2022-08-30 21:41:14.839] [GIT  ] [/home/arfors/.config/code] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • file python-code/problem/main.py has only 21 lines • 8 ms
+
+[2022-08-30 21:41:24.092] [GIT  ] [/home/arfors/.config/code] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:python-code/problem/main.py • file python-code/problem/main.py has only 21 lines • 16 ms
+

@@ -1,0 +1,124 @@
+{
+	"name": "lorem-barnak",
+	"displayName": "Lorem Barnak",
+	"icon": "assets/vscode-lorem-barnak.png",
+	"publisher": "HECHTAxel",
+	"author": "HECHT Axel",
+	"description": "Lorem Barnak is a Visual Studio Code extension. It inserts Quebecer swears inside your code like Lorem Ipsum.",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hecht-a/vscode-lorem-barnak.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hecht-a/vscode-lorem-barnak/issues"
+	},
+	"homepage": "https://github.com/hecht-a/vscode-lorem-barnak#readme",
+	"engines": {
+		"vscode": "^1.53.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:lorem-barnak.line",
+		"onCommand:lorem-barnak.paragraph",
+		"onCommand:lorem-barnak.multipleParagraphs"
+	],
+	"main": "./build/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "lorem-barnak.line",
+				"title": "Lorem Barnak: Insert a line"
+			},
+			{
+				"command": "lorem-barnak.paragraph",
+				"title": "Lorem Barnak: Insert a paragraph"
+			},
+			{
+				"command": "lorem-barnak.multipleParagraphs",
+				"title": "Lorem Barnak: Insert multiple paragraphs"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "lorem-barnak.line",
+				"key": "ctrl+; ctrl+a",
+				"when": "editorTextFocus && !readonlyEditor"
+			},
+			{
+				"command": "lorem-barnak.paragraph",
+				"key": "ctrl+; ctrl+z",
+				"when": "editorTextFocus && !readonlyEditor"
+			},
+			{
+				"command": "lorem-barnak.multipleParagraphs",
+				"key": "ctrl+; ctrl+e",
+				"when": "editorTextFocus && !readonlyEditor"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"command": "lorem-barnak.line",
+					"group": "LoremBarnak",
+					"when": "editorTextFocus && !readonlyEditor"
+				},
+				{
+					"command": "lorem-barnak.paragraph",
+					"group": "LoremBarnak",
+					"when": "editorTextFocus && !readonlyEditor"
+				},
+				{
+					"command": "lorem-barnak.multipleParagraphs",
+					"group": "LoremBarnak",
+					"when": "editorTextFocus && !readonlyEditor"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn build",
+		"build": "tsc -p tsconfig.prod.json",
+		"watch": "yarn build --watch",
+		"lint": "eslint \"src/**\"",
+		"lint:fix": "eslint --fix \"src/**\"",
+		"deploy-vsce": "vsce publish",
+		"deploy-ovsx": "ovsx publish",
+		"package": "vsce package --yarn -o lorem-barnak.vsix"
+	},
+	"devDependencies": {
+		"@types/node": "^14.14.10",
+		"@types/vscode": "^1.53.0",
+		"@typescript-eslint/eslint-plugin": "^4.9.0",
+		"@typescript-eslint/parser": "^4.9.0",
+		"eslint": "^7.15.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-config-airbnb-typescript": "^12.0.0",
+		"eslint-config-prettier": "^7.2.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-json": "^2.1.2",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-simple-import-sort": "^7.0.0",
+		"ovsx": "^0.1.0-next.a9154dc",
+		"prettier": "^2.2.1",
+		"source-map-support": "^0.5.19",
+		"typescript": "^4.1.3",
+		"vsce": "^1.85.1"
+	},
+	"dependencies": {
+		"lorembarnak": "^1.0.7"
+	},
+	"__metadata": {
+		"id": "8f35ca54-82c3-42d7-bccf-be892d1d9c37",
+		"publisherId": "0a3ce871-f076-468f-b2e0-d630daa83e42",
+		"publisherDisplayName": null,
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1661468138496
+	}
+}

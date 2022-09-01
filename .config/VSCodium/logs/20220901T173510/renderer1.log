@@ -1,0 +1,3 @@
+[2022-09-01 17:35:13.967] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)

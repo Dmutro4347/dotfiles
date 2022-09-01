@@ -1,0 +1,74 @@
+{
+	"name": "beardedicons",
+	"displayName": "Bearded Icons",
+	"description": "The icons with a long beard.",
+	"publisher": "BeardedBear",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.65.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BeardedBear/bearded-icons"
+	},
+	"bugs": {
+		"url": "https://github.com/BeardedBear/bearded-icons/issues",
+		"email": "germain.poirrier@gmail.com"
+	},
+	"homepage": "https://github.com/BeardedBear/bearded-icons",
+	"keywords": [
+		"bearded",
+		"icons"
+	],
+	"sponsor": {
+		"url": "https://github.com/sponsors/BeardedBear"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Other",
+		"Themes"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "bearded-icons",
+				"label": "Bearded Icons",
+				"path": "./icons.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.65.0",
+		"node": "^17.7.1",
+		"nodemon": "^2.0.15",
+		"vscode-test": "^1.6.1"
+	},
+	"scripts": {
+		"build": "vite-node src/main.ts",
+		"build:ext": "vsce package --no-yarn",
+		"dev": "vite-node src/main.ts -w",
+		"fix": "prettier --write src/**/*.ts"
+	},
+	"dependencies": {
+		"@types/node": "^18.0.5",
+		"@typescript-eslint/eslint-plugin": "^5.30.6",
+		"@typescript-eslint/parser": "^5.30.6",
+		"eslint": "^8.19.0",
+		"ovsx": "^0.5.1",
+		"prettier": "^2.7.1",
+		"typescript": "^4.7.4",
+		"vite-node": "^0.18.1",
+		"vsce": "^2.10.2"
+	},
+	"__metadata": {
+		"id": "1b7bdcac-09ba-421c-bdde-081928177de7",
+		"publisherId": "bfe8429d-0105-48ef-831f-69e781aeb77c",
+		"publisherDisplayName": null,
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1661615944814
+	}
+}

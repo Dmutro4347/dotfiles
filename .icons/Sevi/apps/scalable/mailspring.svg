@@ -1,0 +1,47 @@
+<svg id="svg22" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs id="defs26">
+        <linearGradient id="b-3" x1="399.57001" x2="399.57001" y1="545.79999" y2="517.79999" gradientTransform="matrix(2.1429,0,0,2.1429,-826.34,-1107.5)" gradientUnits="userSpaceOnUse">
+            <stop id="stop2-6" stop-color="#3889e9" offset="0"/>
+            <stop id="stop4-7" stop-color="#5ea5fb" offset="1"/>
+        </linearGradient>
+        <filter id="filter1655" x="-.073500876" y="-.09800055" width="1.1470018" height="1.1960011" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur917" stdDeviation="0.32410824"/>
+        </filter>
+        <style id="style862" type="text/css"/>
+        <filter id="filter1057" x="-.026999999" y="-.026999999" width="1.054" height="1.054" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur864" stdDeviation="0.61875"/>
+        </filter>
+        <style id="style872" type="text/css"/>
+        <style id="style874" type="text/css"/>
+        <style id="style876" type="text/css"/>
+        <style id="style878" type="text/css"/>
+        <style id="style880" type="text/css"/>
+        <style id="style882" type="text/css"/>
+        <style id="style884" type="text/css"/>
+        <linearGradient id="linearGradient5305" x1="-127" x2="-72" y1="60" y2="5" gradientTransform="matrix(.94545455 0 0 .94545455 126.07273 1.2632724)" gradientUnits="userSpaceOnUse">
+            <stop id="stop867" stop-color="#59c9f9" offset="0"/>
+            <stop id="stop869" stop-color="#52ebc8" offset="1"/>
+        </linearGradient>
+    </defs>
+    <rect id="rect900" x="4.4999995" y="4.4999995" width="55" height="55" ry="15" fill="#141414" filter="url(#filter1057)" opacity=".3" stroke-linecap="round" stroke-width="2.7444"/>
+    <rect id="rect902" x="4.5" y="4.5" width="55" height="55" ry="15" fill="#fefefe" stroke-linecap="round" stroke-width="2.7444"/>
+    <circle id="circle54" cx="32.016998" cy="31.997999" r="0" fill="url(#b-3)" stroke-width="1.5715"/>
+    <rect id="rect5301" x="6" y="6" width="52" height="52" ry="14.181818" fill="url(#linearGradient5305)" stroke-linecap="round" stroke-width="2.59471"/>
+    <g>
+        <rect id="rect928" transform="matrix(3.779602,0,0,3.779602,-1.8338637,-1.9999763)" x="3.6602001" y="5.027" width="10.583" height="7.9373002" ry="1.1978" fill="#b7e1ff" filter="url(#filter1655)" opacity=".8"/>
+        <g stroke-width="3.7796">
+            <rect id="rect936" x="11.999859" y="16.999893" width="39.999527" height="29.999836" ry="4.5272074" fill="#c9e9fe"/>
+            <path id="path938" d="m16.527066 16.999894c-1.343346 0-2.533619 0.590298-3.361314 1.513655l17.521479 14.759724a1.8561625 1.5635836 0 0 0 0.09766 0.07617 1.8561625 1.5635836 0 0 0 0.144529 0.0957 1.8561625 1.5635836 0 0 0 0.156248 0.08399 1.8561625 1.5635836 0 0 0 0.166012 0.07031 1.8561625 1.5635836 0 0 0 0.175781 0.05469 1.8561625 1.5635836 0 0 0 0.17774 0.04297 1.8561625 1.5635836 0 0 0 0.18359 0.02343 1.8561625 1.5635836 0 0 0 0.183598 0.01172 1.8561625 1.5635836 0 0 0 0.185541-0.0059 1.8561625 1.5635836 0 0 0 0.183598-0.02147 1.8561625 1.5635836 0 0 0 0.18164-0.03712 1.8561625 1.5635836 0 0 0 0.175778-0.05078 1.8561625 1.5635836 0 0 0 0.167969-0.06641 1.8561625 1.5635836 0 0 0 0.158199-0.08008 1.8561625 1.5635836 0 0 0 0.150391-0.0918 1.8561625 1.5635836 0 0 0 0.136719-0.105469l17.52148-14.759671c-0.827695-0.923395-2.017967-1.513655-3.361313-1.513655z" fill="#fefefe"/>
+            <path id="path940" d="m50.834513 18.513625-33.816477 28.486482h30.454899c2.508068 0 4.527207-2.01929 4.527207-4.527207v-20.945421c0-1.164722-0.448374-2.21307-1.166007-3.013665z" fill="#d9f0ff"/>
+        </g>
+    </g>
+    <g fill="#5e4aa6">
+        <circle id="circle888" cx="-1258.8849" cy="-1279.3" r="0"/>
+        <g stroke-width="1.00001">
+            <circle id="circle890" cx="-1140.4314" cy="-1318.5997" r="0"/>
+            <circle id="circle892" cx="-40.893093" cy="-53.108513" r="0" fill-rule="evenodd"/>
+            <circle id="circle894" cx="-1061.9291" cy="-1390.1099" r="0"/>
+            <circle id="circle896" cx="37.60622" cy="-124.58192" r="0" fill-rule="evenodd"/>
+        </g>
+    </g>
+</svg>

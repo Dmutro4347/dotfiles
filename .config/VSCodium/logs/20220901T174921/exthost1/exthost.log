@@ -1,0 +1,35 @@
+[2022-09-01 17:49:25.021] [exthost] [info] Extension host with pid 2072 started
+[2022-09-01 17:49:25.021] [exthost] [info] Skipping acquiring lock for /home/arfors/.config/VSCodium/User/workspaceStorage/7ef44597acbedb2f51f57eefd4778ae0.
+[2022-09-01 17:49:25.105] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-09-01 17:49:25.226] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-09-01 17:49:25.347] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-01 17:49:25.351] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-01 17:49:25.359] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-01 17:49:25.371] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-09-01 17:49:25.391] [exthost] [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+[2022-09-01 17:49:25.478] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: true, activationEvent: '*'
+[2022-09-01 17:49:25.661] [exthost] [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+[2022-09-01 17:49:25.665] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+[2022-09-01 17:49:25.708] [exthost] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+[2022-09-01 17:49:25.711] [exthost] [info] ExtensionService#_doActivateExtension reduckted.vscode-gitweblinks, startup: true, activationEvent: '*'
+[2022-09-01 17:49:25.722] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-09-01 17:49:26.460] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-01 17:49:26.493] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-01 17:49:26.504] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-09-01 17:49:26.561] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-09-01 17:49:29.975] [exthost] [info] Eager extensions activated
+[2022-09-01 17:49:29.977] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-01 17:49:29.984] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-01 17:49:29.989] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-01 17:49:30.002] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-01 17:49:30.041] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-01 17:49:30.098] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+[2022-09-01 17:49:30.109] [exthost] [info] ExtensionService#_doActivateExtension felipecaputo.git-project-manager, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-01 17:49:30.177] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-01 17:49:30.193] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-01 17:49:30.736] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-01 17:50:20.765] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-01 17:50:20.801] [exthost] [warning] {"name":"Canceled"}
+[2022-09-01 17:50:20.804] [exthost] [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:220:20)
+[2022-09-01 17:50:20.807] [exthost] [info] Extension host with pid 2072 exiting with code 0

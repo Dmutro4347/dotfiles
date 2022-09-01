@@ -1,0 +1,29 @@
+<svg id="svg29" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <defs id="defs7">
+        <style id="style8721" type="text/css"/>
+        <style id="style8723" type="text/css"/>
+        <filter id="filter1057" x="-.026999999" y="-.026999999" width="1.054" height="1.054" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur8725" stdDeviation="0.61875"/>
+        </filter>
+    </defs>
+    <rect id="rect8735" x="4.4999995" y="4.4999995" width="55" height="55" ry="15" fill="#141414" filter="url(#filter1057)" opacity=".3" stroke-linecap="round" stroke-width="2.7444"/>
+    <rect id="rect8737" x="4.5" y="4.5" width="55" height="55" ry="15" fill="#263238" stroke-linecap="round" stroke-width="2.7444"/>
+    <circle id="circle8743" cx="-1497.1669" cy="-1355.991" r="0" fill="#5e4aa6"/>
+    <circle id="circle8745" cx="-397.60693" cy="-90.501961" r="0" fill="#5e4aa6" fill-rule="evenodd"/>
+    <rect id="rect58329" x="5.5" y="5.5" width="53" height="53" ry="14.454546" fill="#37474f" stroke-linecap="round" stroke-width="2.6446"/>
+    <rect id="rect58404" x="7" y="7" width="50" height="50" ry="13.636364" fill="#26c6da" stroke-linecap="round" stroke-width="2.49491"/>
+    <g fill="#f5f5f5">
+        <path id="rect58406" d="m7.50293 47.003906c1.586759 5.773432 6.841777 9.996094 13.132812 9.996094h22.728516c6.29092 0 11.545947-4.222823 13.132812-9.996094z"/>
+        <g fill-rule="evenodd" stroke-width="1.73847">
+            <rect id="rect59370" x="12.984103" y="13.999914" width="7" height="7" ry="1.5714588" opacity=".686364"/>
+            <rect id="rect59372" x="12.984103" y="25" width="7" height="7" ry="1.5714588" opacity=".686364"/>
+            <rect id="rect59374" x="12.984103" y="36" width="7" height="7" ry="1.5714588" opacity=".686364"/>
+        </g>
+    </g>
+    <rect id="rect60102" x="15.020452" y="50.501953" width="3" height="3" ry=".67348236" fill="#26c6da" fill-rule="evenodd" opacity=".686364" stroke-width=".745059"/>
+    <g fill="#37474f" fill-rule="evenodd" stroke-width="1.05367">
+        <rect id="rect60108" x="21.020454" y="50.501953" width="6" height="3" ry=".67348236" opacity=".686364"/>
+        <rect id="rect60110" x="32" y="50.501953" width="6" height="3" ry=".67348236" opacity=".686364"/>
+        <rect id="rect60112" x="42.979546" y="50.501953" width="6" height="3" ry=".67348236" opacity=".686364"/>
+    </g>
+</svg>

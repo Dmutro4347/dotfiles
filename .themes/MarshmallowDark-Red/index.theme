@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=MarshmallowDark-Red
+Comment=Dark theme 
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=MarshmallowDark-Red
+MetacityTheme=MarshmallowDark-Red
+ButtonLayout=:minimize,maximize,close

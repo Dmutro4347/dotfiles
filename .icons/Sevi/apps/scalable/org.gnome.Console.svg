@@ -1,0 +1,59 @@
+<svg id="svg25" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs id="defs7">
+        <style id="style864" type="text/css"/>
+        <style id="style874" type="text/css"/>
+        <style id="style876" type="text/css"/>
+        <style id="style878" type="text/css"/>
+        <style id="style880" type="text/css"/>
+        <style id="style882" type="text/css"/>
+        <style id="style884" type="text/css"/>
+        <style id="style886" type="text/css"/>
+        <filter id="filter1057-2" x="-.026999999" y="-.026999999" width="1.054" height="1.054" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur935" stdDeviation="0.61875"/>
+        </filter>
+        <linearGradient id="linearGradient1053-0-9" x1="-127" x2="-72" y1="60" y2="5" gradientTransform="translate(131.499 -.51)" gradientUnits="userSpaceOnUse">
+            <stop id="stop938" stop-color="#1f1a2a" offset="0"/>
+            <stop id="stop940" stop-color="#241f31" offset="1"/>
+        </linearGradient>
+    </defs>
+    <g fill="#5e4aa6">
+        <g id="g937" transform="matrix(3.779602,0,0,3.779602,3.9134265,-70.54798)" stroke-width=".26458">
+            <circle id="circle929" cx="-330.35001" cy="-328.38" r="0"/>
+            <circle id="circle931" cx="-312.10999" cy="-326.25" r="0"/>
+            <circle id="circle933" cx="-306.01999" cy="-333.07001" r="0"/>
+            <circle id="circle935" cx="-308.84" cy="-326.01001" r="0"/>
+        </g>
+        <circle id="circle890" cx="-968.94611" cy="-1279.3" r="0"/>
+        <g stroke-width="1.00001">
+            <circle id="circle892" cx="-850.492" cy="-1318.599" r="0"/>
+            <circle id="circle894" cx="249.04576" cy="-53.108505" r="0" fill-rule="evenodd"/>
+            <circle id="circle896" cx="-771.98975" cy="-1390.1091" r="0"/>
+            <circle id="circle898" cx="327.54501" cy="-124.58187" r="0" fill-rule="evenodd"/>
+        </g>
+    </g>
+    <style id="style149" type="text/css">.st0{clip-path:url(#SVGID_1_);}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{clip-path:url(#SVGID_3_);}
+	.st3{clip-path:url(#SVGID_4_);fill:none;stroke:#002C5B;stroke-width:6;stroke-miterlimit:10;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#192E45;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#D0933A;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFCC86;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#FDD321;}
+	.st8{fill:#FFFFFF;}
+	.st9{fill:#1D2A3A;}
+	.st10{fill:#192E45;}</style>
+    <g fill="#e6e6e6"></g>
+    <style id="style69" type="text/css">.st0{fill:#9397CD;}
+	.st1{fill:#262A33;}
+	.st2{fill:#FFFFFF;}</style>
+    <path id="path909" d="m-122.91961-23.035122h88c4.41797 0 8 3.582031 8 8v78c0 4.41797-3.58203 8-8 8h-88c-4.41797 0-8-3.58203-8-8v-78c0-4.417969 3.58203-8 8-8z" fill="url(#a-3)"/>
+    <path id="path911" d="m-122.91961-33.035122h88c4.41797 0 8 3.582031 8 8v80c0 4.41797-3.58203 8-8 8h-88c-4.41797 0-8-3.58203-8-8v-80c0-4.417969 3.58203-8 8-8z" fill="url(#b)"/>
+    <rect id="rect945" x="4.5" y="4.5" width="55" height="55" ry="15" fill="#141414" filter="url(#filter1057-2)" opacity=".3" stroke-linecap="round" stroke-width="2.7444"/>
+    <rect id="rect947" x="4.5000005" y="4.500001" width="55" height="55" ry="15" fill="url(#linearGradient1053-0-9)" stroke-linecap="round" stroke-width="2.7444"/>
+    <g id="layer1">
+        <g id="g919" transform="matrix(.59205916 0 0 .59205916 -5.5103931 -3.4628481)" fill="#62c9ea">
+            <path id="path915" d="M 46.011719,40.886719 32,33.273438 V 38 l 9.710938,4.628906 v 0.144532 L 32,48 v 4.726562 l 14.011719,-8.210937 z m 0,0"/>
+            <path id="path917" d="m50 56v4h16v-4z"/>
+        </g>
+    </g>
+</svg>

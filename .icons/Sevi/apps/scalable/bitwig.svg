@@ -1,0 +1,90 @@
+<svg id="svg25" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs id="defs7">
+        <filter id="filter1152" x="-.055255153" y="-.0656407" width="1.1105103" height="1.1312814" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur922" stdDeviation="2.9934784"/>
+        </filter>
+        <style id="style864" type="text/css"/>
+        <filter id="filter1057" x="-.026999999" y="-.026999999" width="1.054" height="1.054" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur866" stdDeviation="0.61875"/>
+        </filter>
+        <style id="style874" type="text/css"/>
+        <style id="style876" type="text/css"/>
+        <style id="style878" type="text/css"/>
+        <style id="style880" type="text/css"/>
+        <style id="style882" type="text/css"/>
+        <style id="style884" type="text/css"/>
+        <style id="style886" type="text/css"/>
+        <linearGradient id="linearGradient6186" x1="24.320965" x2="46.448174" y1="19.426384" y2="61.050648" gradientUnits="userSpaceOnUse">
+            <stop id="stop6170" stop-color="#fd7e14" offset="0"/>
+            <stop id="stop6172" stop-color="#dc3545" offset="1"/>
+        </linearGradient>
+        <filter id="filter6210" x="-.012" y="-.012" width="1.024" height="1.024" color-interpolation-filters="sRGB">
+            <feGaussianBlur id="feGaussianBlur6212" stdDeviation="0.275"/>
+        </filter>
+    </defs>
+    <rect id="rect902" x="4.4999995" y="4.4999995" width="55" height="55" ry="15" fill="#141414" filter="url(#filter1057)" opacity=".3" stroke-linecap="round" stroke-width="2.7444"/>
+    <rect id="rect904" x="4.5" y="4.5" width="55" height="55" ry="15" fill="url(#linearGradient6186)" filter="url(#filter6210)" stroke-linecap="round" stroke-width="2.744" style="mix-blend-mode:normal"/>
+    <g fill="#5e4aa6">
+        <g id="g937" transform="matrix(3.779602,0,0,3.779602,3.9134265,-70.54798)" stroke-width=".26458">
+            <circle id="circle929" cx="-330.35001" cy="-328.38" r="0"/>
+            <circle id="circle931" cx="-312.10999" cy="-326.25" r="0"/>
+            <circle id="circle933" cx="-306.01999" cy="-333.07001" r="0"/>
+            <circle id="circle935" cx="-308.84" cy="-326.01001" r="0"/>
+        </g>
+        <circle id="circle890" cx="-968.94611" cy="-1279.3" r="0"/>
+        <g stroke-width="1.00001">
+            <circle id="circle892" cx="-850.492" cy="-1318.599" r="0"/>
+            <circle id="circle894" cx="249.04576" cy="-53.108505" r="0" fill-rule="evenodd"/>
+            <circle id="circle896" cx="-771.98975" cy="-1390.1091" r="0"/>
+            <circle id="circle898" cx="327.54501" cy="-124.58187" r="0" fill-rule="evenodd"/>
+        </g>
+    </g>
+    <g id="layer2">
+        <g id="layer1">
+            <g id="g45-3" transform="matrix(1.1428581,0,0,1.1428581,8.8397095,16.294851)" fill-opacity=".1">
+                <g id="g19-6" transform="translate(0,-10)">
+                    <circle id="circle11-7" cx="12" cy="18" r="2"/>
+                    <circle id="circle13-5" cx="17" cy="18" r="2"/>
+                    <circle id="circle15-3" cx="22" cy="18" r="2"/>
+                    <circle id="circle17-5" cx="27" cy="18" r="2"/>
+                </g>
+                <g id="g29-6" transform="translate(0,-5)">
+                    <circle id="circle21-2" cx="12" cy="18" r="2"/>
+                    <circle id="circle23-9" cx="17" cy="18" r="2"/>
+                    <circle id="circle25-1" cx="22" cy="18" r="2"/>
+                    <circle id="circle27-2" cx="27" cy="18" r="2"/>
+                </g>
+                <g id="g43-7">
+                    <circle id="circle31-0" transform="translate(5,-5)" cx="27" cy="18" r="2"/>
+                    <circle id="circle33-9" transform="translate(-20,-5)" cx="27" cy="18" r="2"/>
+                    <circle id="circle35-3" transform="translate(-20)" cx="27" cy="18" r="2"/>
+                    <circle id="circle37-6" transform="translate(-15)" cx="27" cy="18" r="2"/>
+                    <circle id="circle39-0" transform="translate(5)" cx="27" cy="18" r="2"/>
+                    <circle id="circle41-6" cx="27" cy="18" r="2"/>
+                </g>
+            </g>
+        </g>
+        <g id="g45-31" transform="matrix(1.1428581,0,0,1.1428581,9.3444206,16.704683)">
+            <g id="g19-4" transform="translate(0,-10)" fill="#fdffff">
+                <circle id="circle11-9" cx="12" cy="18" r="2"/>
+                <circle id="circle13-2" cx="17" cy="18" r="2"/>
+                <circle id="circle15-0" cx="22" cy="18" r="2"/>
+                <circle id="circle17-6" cx="27" cy="18" r="2"/>
+            </g>
+            <g id="g29-8" transform="translate(0,-5)" fill="#fdf4ff">
+                <circle id="circle21-9" cx="12" cy="18" r="2"/>
+                <circle id="circle23-2" cx="17" cy="18" r="2"/>
+                <circle id="circle25-6" cx="22" cy="18" r="2"/>
+                <circle id="circle27-6" cx="27" cy="18" r="2"/>
+            </g>
+            <g id="g43-4" fill="#fff">
+                <circle id="circle31-9" transform="translate(5,-5)" cx="27" cy="18" r="2"/>
+                <circle id="circle33-5" transform="translate(-20,-5)" cx="27" cy="18" r="2"/>
+                <circle id="circle35-0" transform="translate(-20)" cx="27" cy="18" r="2"/>
+                <circle id="circle37-4" transform="translate(-15)" cx="27" cy="18" r="2"/>
+                <circle id="circle39-8" transform="translate(5)" cx="27" cy="18" r="2"/>
+                <circle id="circle41-7" cx="27" cy="18" r="2"/>
+            </g>
+        </g>
+    </g>
+</svg>

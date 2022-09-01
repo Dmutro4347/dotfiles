@@ -1,0 +1,8 @@
+[00:20:10.940] Activating extension.
+[00:20:10.940] Executing git -c core.quotepath=false --version
+[00:20:10.961] Workspace folders changed: { added: [ 'file:///home/arfors/.config/code' ], removed: [] }
+[00:20:10.961] Adding workspace folder 'file:///home/arfors/.config/code'.
+[00:20:10.961] Searching for Git repositories in workspace '/home/arfors/.config/code'...
+[00:20:10.961] Searching up from the workspace root...
+[00:20:11.016] Found a repository at '/home/arfors/.config/code'.
+[00:20:11.016] Workspace details: { uri: 'file:///home/arfors/.config/code', hasRepositories: true }

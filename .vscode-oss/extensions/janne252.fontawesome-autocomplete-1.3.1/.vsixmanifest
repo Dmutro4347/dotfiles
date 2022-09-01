@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="fontawesome-autocomplete" Version="1.3.1" Publisher="Janne252" />
+			<DisplayName>Font Awesome Auto-complete &amp; Preview</DisplayName>
+			<Description xml:space="preserve">Autocomplete &amp; preview Font Awesome icons in any language.</Description>
+			<Tags>Font Awesome 6,Font Awesome 5,Font Awesome 4,Class names,Auto-complete,Icon preview</Tags>
+			<Categories>Other</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			<Badges><Badge Link="https://fontawesome.com/v6.0/" ImgUri="https://img.shields.io/badge/Font%20Awesome%206%20(free)-6.0.0-%23ffd43b" Description="Font Awesome 6 (free) 6.0.0" />
+<Badge Link="https://fontawesome.com" ImgUri="https://img.shields.io/badge/Font%20Awesome%205%20(free)-5.15.4-%23339af0" Description="Font Awesome 5 (free) 5.15.4" />
+<Badge Link="https://fontawesome.com/v4.7.0/" ImgUri="https://img.shields.io/badge/Font%20Awesome%204-4.7.0-%231d9d74" Description="Font Awesome 4.7.0" /></Badges>
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.32.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/Janne252/vscode-fontawesome-auto-complete.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/Janne252/vscode-fontawesome-auto-complete.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/Janne252/vscode-fontawesome-auto-complete.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/Janne252/vscode-fontawesome-auto-complete/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/Janne252/vscode-fontawesome-auto-complete/blob/master/README.md" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#1e1c1e" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				
+				
+			</Properties>
+			<License>extension/LICENSE.txt</License>
+			<Icon>extension/media/image/icon.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/media/image/icon.png" Addressable="true" />
+		</Assets>
+	</PackageManifest>
