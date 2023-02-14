@@ -1,0 +1,19 @@
+--- dwm.c
++++ dwm.c
+@@ -1730,9 +1754,14 @@ togglefloating(const Arg *arg)
+ 	if (selmon->sel->isfullscreen) /* no support for fullscreen windows */
+ 		return;
+ 	selmon->sel->isfloating = !selmon->sel->isfloating || selmon->sel->isfixed;
+-	if (selmon->sel->isfloating)
++	if (selmon->sel->isfloating) {
++		if (selmon->sel->bw != borderpx) {
++			selmon->sel->oldbw = selmon->sel->bw;
++			selmon->sel->bw = borderpx;
++		}
+ 		resize(selmon->sel, selmon->sel->x, selmon->sel->y,
+-		       selmon->sel->w, selmon->sel->h, 0);
++		       selmon->sel->w - selmon->sel->bw * 2, selmon->sel->h - selmon->sel->bw * 2, 0);
++	}
+ 	arrange(selmon);
+ }
+ 

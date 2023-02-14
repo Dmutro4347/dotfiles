@@ -1,0 +1,14 @@
+#!/usr/bin/python
+
+import subprocess as sp
+
+with open('/etc/modprobe.d/vfio.conf') as vfio:
+    if vfio.read()[0] == '#':
+        sp.call("sudo echo 'softdep snd_hda_intel pre: vfio-pci\nsoftdep nvidia pre: vfio-pci\nsoftdep vfio-pci pre: vendor-reset\nsoftdep nvidia pre: vendor-reset\noptions vfio-pci ids=10de:1f95,10de:10fa' > /etc/modprobe.d/vfio.conf", shell=True)
+        print('модулі для гри буде завантажено після перезагрузки')
+    else:
+        sp.call("sudo echo '#softdep snd_hda_intel pre: vfio-pci\n#softdep nvidia pre: vfio-pci\n#softdep vfio-pci pre: vendor-reset\n#softdep nvidia pre: vendor-reset\n#options vfio-pci ids=10de:1f95,10de:10fa' > /etc/modprobe.d/vfio.conf", shell=True)
+        print('модулі для гри буде видалено після перезагрузки')
+# sp.call('reboot')
+
+
