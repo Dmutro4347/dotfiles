@@ -5,3 +5,7 @@ end
 function fish_greeting
 
 end
+
+alias vi nvim
+alias vim nvim
+alias fs /home/arfors/.dwm/.fs.sh

@@ -1,0 +1,11 @@
+#!/usr/bin/python
+import subprocess as sp
+import os
+import random
+import time
+
+PATH="/home/arfors/.wallpapers/"
+while True:
+    wallpapers = os.listdir(PATH)
+    sp.call(f"feh --bg-scale /home/arfors/.wallpapers/{wallpapers[random.randint(0, len(wallpapers))]}", shell=True)
+    time.sleep(600)

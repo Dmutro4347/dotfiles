@@ -1,30 +1,19 @@
--- Добавляєм Packer як пакет в Neovim
 vim.cmd [[packadd packer.nvim]]
 
--- Список для плагінів
 return require('packer').startup(function()
-	use 'wbthomason/packer.nvim' -- менеджер плагінів
-	use 'ryanoasis/vim-devicons' -- іконки
-	use 'kyazdani42/nvim-web-devicons' -- іконки
+	use 'wbthomason/packer.nvim'
+	use 'ryanoasis/vim-devicons'
+	use 'kyazdani42/nvim-web-devicons'
 	use {
-  'nvim-tree/nvim-tree.lua', -- дерево файлів
-  tag = 'nightly' -- Оновлення кожен Тиждень
-}
-	use 'NvChad/nvim-colorizer.lua'
-	use 'romgrk/barbar.nvim' -- бар з відкритим файлами
-	use {
-  'nvim-lualine/lualine.nvim', -- панель для nvim
-}
-	use 'goolord/alpha-nvim' -- виставковий екран nvim
-
-	use {
-  'nvim-telescope/telescope.nvim', -- fzf пошук
-  requires = { {'nvim-lua/plenary.nvim'} }
-}
-		use 'onsails/lspkind.nvim'
-		use 'jose-elias-alvarez/null-ls.nvim'
-		use 'williamboman/mason.nvim'
-		use 'williamboman/mason-lspconfig.nvim'
+  	'nvim-tree/nvim-tree.lua',
+  	tag = 'nightly'
+	}
+	use 'romgrk/barbar.nvim'
+	use 'nvim-lualine/lualine.nvim'
+	use 'goolord/alpha-nvim'
+	use 'jose-elias-alvarez/null-ls.nvim'
+	use 'williamboman/mason.nvim'
+	use 'williamboman/mason-lspconfig.nvim'
 	use {
 		'hrsh7th/nvim-cmp',
 		requires = {
@@ -34,13 +23,21 @@ return require('packer').startup(function()
 			'hrsh7th/cmp-path',
 			'hrsh7th/cmp-cmdline',
 			'hrsh7th/nvim-cmp',
-			'L3MON4D3/LuaSnip'
+			'L3MON4D3/LuaSnip',
+      'saadparwaiz1/cmp_luasnip'
 		}
 	}
-	use 'nvim-treesitter/nvim-treesitter' -- хайлайтер для nvim
-	use {"akinsho/toggleterm.nvim", tag = '*', config = function() -- термінал
+  use {
+  'nvim-telescope/telescope.nvim', tag = '0.1.1',
+-- or                            , branch = '0.1.x',
+  requires = { {'nvim-lua/plenary.nvim'} }
+}
+  use 'mg979/vim-visual-multi'
+  use 'morhetz/gruvbox'
+  use 'mhartington/oceanic-next'
+  use 'kaicataldo/material.vim'
+  use 'ayu-theme/ayu-vim'
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
   require("toggleterm").setup() end}
-	use 'catppuccin/nvim'
-	use 'onsails/lspkind-nvim'
+  use 'NvChad/nvim-colorizer.lua'
 end)
-

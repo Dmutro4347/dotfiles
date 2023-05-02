@@ -1,24 +1,20 @@
-local opt = vim.opt
-local g = vim.g
--- Відображення цифр
-opt.relativenumber=true
-opt.number=true
-
--- Відступи і Таби
-opt.shiftwidth=2
-opt.tabstop=2
-opt.softtabstop=2
---opt.smarttab=true
-opt.autoindent=true
-
--- Мишка
-opt.mouse= 'a'
-opt.syntax= 'on'
--- Лінія курсору
-opt.cursorline= true
-opt.cursorlineopt= 'both'
-completeopt='menu,menuone,noselect'
-
--- Кольорова тема
-vim.cmd[[colorscheme catppuccin-macchiato]]
-
+vim.opt.relativenumber=true
+vim.opt.number=true
+vim.opt.encoding='utf-8'
+vim.opt.swapfile=false
+vim.opt.scrolloff=7
+vim.opt.shiftwidth=2
+vim.opt.tabstop=2
+vim.opt.softtabstop=2
+vim.opt.autoindent=true
+vim.opt.expandtab=true
+vim.opt.smartindent=true
+vim.opt.fileformat='unix'
+vim.opt.mouse= 'a'
+vim.opt.syntax= 'on'
+vim.opt.cursorline= true
+vim.opt.cursorlineopt= 'both'
+vim.completeopt='menu,menuone,noselect'
+vim.opt.termguicolors=true
+vim.cmd[[colorscheme gruvbox]]
+vim.cmd[[set colorcolumn=79]]
